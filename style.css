@@ -26,14 +26,13 @@ main{
 
 
 }
+/* partie 1 cordonner*/
 main .partie-1{
-    /* background-color: #ffc209; */
-    /* background-color: #f2f2f2; */
     background-color: #010208;
-    /* color: #010208; */
     color: #ffffff;
     padding-left: 2rem;
 }
+/*image de profil*/
 .img img{
     width: 25rem;
     height: 25rem;
@@ -42,19 +41,21 @@ main .partie-1{
     margin: auto;
     padding-top: 2rem;
 }
+/* flexer les deux partie*/
 .partie{
     flex-basis: 45%;
 }
 h1,.name{
     display: block;
-    color: #ffc209;
     text-align: center;
+}
+h1,.name,h2{
     margin: 2rem 0;
+    color: #ffc209;
+
 }
 h2{
     font-size: 2.2rem;
-    margin: 2rem 0;
-    color: #ffc209;
 
 }
 .cordonnee p, ul li{
@@ -63,6 +64,7 @@ h2{
 ul li{
     margin-left: 2rem;
 }
+/*partie competence */
 #competence progress{
 color: #ce723c;
 margin-left: 4rem;
@@ -100,6 +102,7 @@ margin-top: 3rem;
     justify-content: space-between;
     align-items: center;
 }
+/* partie 2 pour les formations et les experiences*/
 .partie-2{
     padding-right: 4rem;
     margin-top: 5rem;
@@ -118,6 +121,7 @@ a{
     text-decoration: none;
     color: #ce723c;
 }
+/* dernier partie en footer*/
 .footer-Designed{
     flex-basis: 100%;
     text-align: center;
